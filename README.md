@@ -2,6 +2,7 @@
 Marketing System and Sales System Project in Python, also referred to as MSS, is a program that’s ultimately designed to make the sales process simpler.This Marketing and Sales System System is a quick and easy Python project for beginners and intermediates alike, and it broadens knowledge of Python applications. Finally, this entire Python project with free source code is an absolute project and a valuable means for users to learn and explore more about it.
 
 
+
 import pwinput
 print("Marketing and Sales System")
 print('\n\t\t\tWelcome\t\t\t\n')
@@ -10,7 +11,8 @@ print("2.Exit")
 choice=int(input("Enter your choice: "))
 if choice==1:
     name=input("Enter the user name: ")
-    passwd=pwinput.pwinput(prompt="Enter the password: ",mask="*")# prompt- something the computer displays to tell you it's ready for your instructions.
+    passwd=pwinput.pwinput(prompt="Enter the password: ",mask="*")#prompt- something the computer displays to tell you it's ready for
+    #your instructions.
     while name=='sophie' and passwd=='sophie123':
             print('1. Registry for Products Seller')#Akshaya
             print('2. Registry for Order Placement')#Sarayu
